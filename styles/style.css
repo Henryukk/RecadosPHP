@@ -40,6 +40,7 @@
 .bg-body{
   background-color: #121316 !important;
 }
+/*Cor do fundo das navbar*/
 .card .card-header {
   background: linear-gradient(100deg, #060c14 0%, #070f27 50%, #0f204d 100%) !important;
   color: white;
