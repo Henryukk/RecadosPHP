@@ -1,7 +1,9 @@
+
 /* cards dentro de recados */
 .card-recado {
   border-left: 4px solid var(--bs-primary);
   box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  font-family: 'Courier New', Courier, monospace;
 }
 /* cor da borda do card favoritado */
 .card-recado.favorito {
@@ -22,6 +24,7 @@
 .navbar.bg-primary {
   background: linear-gradient(100deg, #060c14 0%, #070f27 50%, #0f204d 100%) !important;
   border-bottom: 1px solid rgba(255,255,255,.06);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-recado:hover {
@@ -31,4 +34,13 @@
 /*cor da sombra do card favoritado*/
 .card-recado.favorito {
   box-shadow: 0 0 0 1px rgba(244,196,48,.25), 0 8px 24px rgba(244,196,48,.08);
+}
+
+/*Fundo principal */
+.bg-body{
+  background-color: #121316 !important;
+}
+.card .card-header {
+  background: linear-gradient(100deg, #060c14 0%, #070f27 50%, #0f204d 100%) !important;
+  color: white;
 }
