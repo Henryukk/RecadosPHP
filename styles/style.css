@@ -1,0 +1,34 @@
+/* cards dentro de recados */
+.card-recado {
+  border-left: 4px solid var(--bs-primary);
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+/* cor da borda do card favoritado */
+.card-recado.favorito {
+  border-left-color: gold;
+}
+
+/* Escritas dentro dos cards de recados*/
+.recado-data {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.card-recado .btn:hover {
+  filter: brightness(0.95);
+}
+
+/* Cor do header com gradiente*/
+.navbar.bg-primary {
+  background: linear-gradient(100deg, #060c14 0%, #070f27 50%, #0f204d 100%) !important;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.card-recado:hover {
+  transform: translateY(-1px);
+}
+
+/*cor da sombra do card favoritado*/
+.card-recado.favorito {
+  box-shadow: 0 0 0 1px rgba(244,196,48,.25), 0 8px 24px rgba(244,196,48,.08);
+}
